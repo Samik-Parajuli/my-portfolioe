@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="particles" id="particles-js"></div>
-    
+
     <div class="container">
         <!-- Left Navigation -->
         <nav class="left-nav">
@@ -26,6 +28,15 @@
                 <a href="https://github.com/Samik-Parajuli" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.instagram.com/sammyy_innit"><i class="fab fa-instagram"></i></a>
             </div>
+
+            <!-- Settings Section -->
+            <div class="settings">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i> Dark Mode
+                </button>
+            </div>
+        </nav>
+
         </nav>
 
         <!-- Main Content -->
@@ -37,119 +48,133 @@
                     <div class="about-me">
                         <h1>Sameek Parajuli</h1>
                         <h2>Cybersecurity</h2>
-                        <p>I am a dedicated and curious cybersecurity student at Texas College of Management and IT, with a strong interest in ethical hacking, network security, and digital forensics. My passion lies in the practical application of these skills, which I've honed through hands-on experiences in Capture The Flag (CTF) challenges and penetration testing labs. This continuous engagement with real-world scenarios allows me to stay up-to-date with emerging threats and vulnerabilities.
+                        <p>I am a dedicated and curious cybersecurity student at Texas College of Management and IT,
+                            with a strong interest in ethical hacking, network security, and digital forensics. My
+                            passion lies in the practical application of these skills, which I've honed through hands-on
+                            experiences in Capture The Flag (CTF) challenges and penetration testing labs. This
+                            continuous engagement with real-world scenarios allows me to stay up-to-date with emerging
+                            threats and vulnerabilities.
 
-I believe that the best way to learn is by doing. I enjoy exploring system weaknesses in safe, controlled environments, which helps me understand attacker mindsets and develop proactive strategies to secure digital infrastructure. My goal is to leverage this knowledge to contribute to a safer and more resilient digital world, one system at a time. I'm always eager to take on new challenges and expand my skill set to stay ahead of the evolving cybersecurity landscape.</p>
-                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the mountains. I believe in continuous learning and pushing the boundaries of what's possible on the web.</p>
-                        <button class="theme-toggle" id="themeToggle">
-                            <i class="fas fa-moon"></i> Dark Mode
-                        </button>
+                            I believe that the best way to learn is by doing. I enjoy exploring system weaknesses in
+                            safe, controlled environments, which helps me understand attacker mindsets and develop
+                            proactive strategies to secure digital infrastructure. My goal is to leverage this knowledge
+                            to contribute to a safer and more resilient digital world, one system at a time. I'm always
+                            eager to take on new challenges and expand my skill set to stay ahead of the evolving
+                            cybersecurity landscape.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                            projects, or hiking in the mountains. I believe in continuous learning and pushing the
+                            boundaries of what's possible on the web.</p>
                     </div>
                 </div>
             </section>
-</head>
-<body>
-    <div class="resume-container">
-        <h1><b>My Resume</b></h1>
-    
-        
-        <!-- Download link -->
-        <a href="RESUME/sameek_CV.pdf" download class="download-btn">
-            <i class="fas fa-download"></i> Download Resume
-        </a>
-    </div>
+            </head>
 
-           <section id="skills" class="section" data-aos="fade-up">
-    <h2>My Skills</h2>
-    <div class="skills-container">
-        <div class="skill-card" data-aos="fade-right">
-            <h3><i class="fas fa-shield-alt"></i> Core Cybersecurity Skills</h3>
-            <p>A strong foundation in security principles and best practices.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
-            <h3><i class="fas fa-network-wired"></i> Network Security</h3>
-            <p>Securing network infrastructure, firewalls, and intrusion detection systems.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="200">
-            <h3><i class="fas fa-user-secret"></i> Penetration Testing</h3>
-            <p>Ethical hacking to identify and exploit vulnerabilities.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="300">
-            <h3><i class="fas fa-search"></i> Digital Forensics</h3>
-            <p>Investigating digital evidence to uncover security incidents.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="400">
-            <h3><i class="fas fa-bug"></i> Vulnerability Assessment</h3>
-            <p>Scanning and analyzing systems for security weaknesses.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="500">
-            <h3><i class="fas fa-bell"></i> Incident Response</h3>
-            <p>Developing and executing plans to handle security breaches.</p>
-        </div>
-        <div class="skill-card" data-aos="fade-right" data-aos-delay="600">
-            <h3><i class="fas fa-chart-line"></i> Security Monitoring</h3>
-            <p>Real-time analysis and threat detection to maintain security posture.</p>
-        </div>
-    </div>
-</section>
+            <body>
+                <div class="resume-container">
+                    <h1><b>My Resume</b></h1>
 
-           <section id="projects" class="section" data-aos="fade-up">
-    <h2>My Projects</h2>
-    <div class="projects-container">
-        <div class="project-card" data-aos="flip-left">
-            <img src="Images/malware_sandbox.jpg" alt="Project 1" class="project-img">
-            <div class="project-info">
-                <h3>Malware Analysis Sandbox</h3>
-                <p>A controlled environment for safely analyzing the behavior of malicious software and its impact on a system.</p>
-            </div>
-        </div>
-        <div class="project-card" data-aos="flip-left" data-aos-delay="100">
-            <img src="Images/IDS.jpg" alt="Project 2" class="project-img">
-            <div class="project-info">
-                <h3>Intrusion Detection System (IDS)</h3>
-                <p>An application that monitors network traffic for suspicious activity and alerts administrators to potential threats.</p>
-            </div>
-        </div>
-        <div class="project-card" data-aos="flip-left" data-aos-delay="200">
-            <img src="Images/web_Vuln.jpg" alt="Project 3" class="project-img">
-            <div class="project-info">
-                <h3>Web Vulnerability Scanner</h3>
-                <p>A tool to automatically scan websites for common security flaws like SQL injection and cross-site scripting (XSS).</p>
-            </div>
-        </div>
-        <div class="project-card" data-aos="flip-left" data-aos-delay="300">
-            <img src="Images/digital_forensics.jpg" alt="Project 4" class="project-img">
-            <div class="project-info">
-                <h3>Digital Forensics Toolkit</h3>
-                <p>A suite of scripts and utilities for acquiring and analyzing digital evidence from disk images and memory dumps.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-            <!-- Contact Section -->
-            <section id="contact" class="section" data-aos="fade-up">
-                <h2>Get In Touch</h2>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your name">
+                    <!-- Download link -->
+                    <a href="RESUME/sameek_CV.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+
+                <section id="skills" class="section" data-aos="fade-up">
+                    <h2>My Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-card" data-aos="fade-right">
+                            <h3><i class="fas fa-shield-alt"></i> Core Cybersecurity Skills</h3>
+                            <p>A strong foundation in security principles and best practices.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
+                            <h3><i class="fas fa-network-wired"></i> Network Security</h3>
+                            <p>Securing network infrastructure, firewalls, and intrusion detection systems.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="200">
+                            <h3><i class="fas fa-user-secret"></i> Penetration Testing</h3>
+                            <p>Ethical hacking to identify and exploit vulnerabilities.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="300">
+                            <h3><i class="fas fa-search"></i> Digital Forensics</h3>
+                            <p>Investigating digital evidence to uncover security incidents.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="400">
+                            <h3><i class="fas fa-bug"></i> Vulnerability Assessment</h3>
+                            <p>Scanning and analyzing systems for security weaknesses.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="500">
+                            <h3><i class="fas fa-bell"></i> Incident Response</h3>
+                            <p>Developing and executing plans to handle security breaches.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-right" data-aos-delay="600">
+                            <h3><i class="fas fa-chart-line"></i> Security Monitoring</h3>
+                            <p>Real-time analysis and threat detection to maintain security posture.</p>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Your email">
+                </section>
+
+                <section id="projects" class="section" data-aos="fade-up">
+                    <h2>My Projects</h2>
+                    <div class="projects-container">
+                        <div class="project-card" data-aos="flip-left">
+                            <img src="Images/malware_sandbox.jpg" alt="Project 1" class="project-img">
+                            <div class="project-info">
+                                <h3>Malware Analysis Sandbox</h3>
+                                <p>A controlled environment for safely analyzing the behavior of malicious software and
+                                    its impact on a system.</p>
+                            </div>
+                        </div>
+                        <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                            <img src="Images/IDS.jpg" alt="Project 2" class="project-img">
+                            <div class="project-info">
+                                <h3>Intrusion Detection System (IDS)</h3>
+                                <p>An application that monitors network traffic for suspicious activity and alerts
+                                    administrators to potential threats.</p>
+                            </div>
+                        </div>
+                        <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                            <img src="Images/web_Vuln.jpg" alt="Project 3" class="project-img">
+                            <div class="project-info">
+                                <h3>Web Vulnerability Scanner</h3>
+                                <p>A tool to automatically scan websites for common security flaws like SQL injection
+                                    and cross-site scripting (XSS).</p>
+                            </div>
+                        </div>
+                        <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                            <img src="Images/digital_forensics.jpg" alt="Project 4" class="project-img">
+                            <div class="project-info">
+                                <h3>Digital Forensics Toolkit</h3>
+                                <p>A suite of scripts and utilities for acquiring and analyzing digital evidence from
+                                    disk images and memory dumps.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group full-width">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group full-width">
-                        <label for="message">Message</label>
-                        <textarea id="message" placeholder="Your message"></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </section>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="section" data-aos="fade-up">
+                    <h2>Get In Touch</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </section>
         </main>
     </div>
 
@@ -165,4 +190,5 @@ I believe that the best way to learn is by doing. I enjoy exploring system weakn
     <!-- Link to the separated JavaScript file -->
     <script src="script.js"></script>
 </body>
+
 </html>
